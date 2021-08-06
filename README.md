@@ -14,3 +14,17 @@ Realizado por:
 ```
 npm install
 ```
+2. La gran mayoría de controladores necesitan de un ejecutable extra para que Selenium pueda comunicarse con el navegador. Sigue los siguentes pasos para agregar el ejecutable de chrome al sistema.
+
+Crea un directorio para almacenar los ejecutables en el, como **C:\WebDriver\bin** (el ejecutable esta en la carpeta WebDriver)
+
+```
+C:\WebDriver\bin 
+```
+
+Añade el directorio al PATH del sistema. En Windows - Abre una terminal de comando como administrador y ejecuta el siguiente comando para añadir permanentemente el directorio a tu PATH para todos los usuarios de tu maquina: 
+```
+setx /m path "%path%;C:\WebDriver\bin\"
+```
+
+
