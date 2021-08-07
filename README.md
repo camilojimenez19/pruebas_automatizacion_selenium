@@ -19,12 +19,21 @@ npm install
 Crea un directorio para almacenar los ejecutables en el, como **C:\WebDriver\bin** (el ejecutable esta en la carpeta WebDriver)
 
 ```
-C:\WebDriver\bin 
+C:\webDriver
 ```
 
-Añade el directorio al PATH del sistema. En Windows - Abre una terminal de comando como administrador y ejecuta el siguiente comando para añadir permanentemente el directorio a tu PATH para todos los usuarios de tu maquina: 
+Añade el directorio al PATH del sistema.
+
+Ejecute los siguientes comandos para ejecutar los scripts con mocha para el manejo de los test.
 ```
-setx /m path "%path%;C:\WebDriver\bin\"
+npm install mocha
+npm install --save-dev mocha
+npm install mocha -g
+```
+
+Luego ejecuta el siguiente comando para correr todas las pruebas
+```
+npm run test
 ```
 
 
