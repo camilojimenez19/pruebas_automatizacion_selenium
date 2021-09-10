@@ -14,7 +14,7 @@ const map = promise.map;
     await driver.findElement(By.name('dob')).sendKeys('01/01/1993');
 
     await driver.findElement(By.name('addr')).sendKeys('Cra 65a numero 23 11');
-    await driver.findElement(By.name('city')).sendKeys('Bogota');
+    await driver.findElement(By.name('city')).sendKeys('Barranquilla');
     await driver.findElement(By.name('state')).sendKeys('Antioquia');
     await driver.findElement(By.name('pinno')).sendKeys('051054');
     await driver.findElement(By.name('telephoneno')).sendKeys('3217458474');
