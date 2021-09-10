@@ -18,7 +18,7 @@ const map = promise.map;
     await driver.findElement(By.name('state')).sendKeys('Antioquia');
     await driver.findElement(By.name('pinno')).sendKeys('051054');
     await driver.findElement(By.name('telephoneno')).sendKeys('3217458474');
-    await driver.findElement(By.name('emailid')).sendKeys('test_customer1@test.com');
+    await driver.findElement(By.name('emailid')).sendKeys('camilo.jimenez@test.com');
     await driver.findElement(By.name('password')).sendKeys('12345');
     await driver.findElement(By.name('sub')).sendKeys('', Key.ENTER);
 

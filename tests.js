@@ -39,7 +39,7 @@ describe("Pruebas de automatizacion - Ejercicio 2", function () {
     await driver.findElement(By.name("telephoneno")).sendKeys("3217458474");
     await driver
       .findElement(By.name("emailid"))
-      .sendKeys("email-customer-test@test.com");
+      .sendKeys("email-customer-test5@test.com");
     await driver.findElement(By.name("password")).sendKeys("12345");
     await driver.findElement(By.name("sub")).sendKeys("", Key.ENTER);
     driver.switchTo().alert().accept();
