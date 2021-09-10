@@ -10,11 +10,11 @@ const map = promise.map;
     await driver.findElement(By.name('password')).sendKeys('epubepe');
     await driver.findElement(By.name('btnLogin')).sendKeys('', Key.ENTER);
     await driver.findElement(By.xpath(".//*[@class='menusubnav']//li//a[contains(.,'New Customer')]")).sendKeys('', Key.ENTER);
-    await driver.findElement(By.name('name')).sendKeys('Test Customer');
+    await driver.findElement(By.name('name')).sendKeys('Cambio en la rama master');
     await driver.findElement(By.name('dob')).sendKeys('01/01/1993');
 
     await driver.findElement(By.name('addr')).sendKeys('Cra 65a numero 23 11');
-    await driver.findElement(By.name('city')).sendKeys('Medellin');
+    await driver.findElement(By.name('city')).sendKeys('Bogota');
     await driver.findElement(By.name('state')).sendKeys('Antioquia');
     await driver.findElement(By.name('pinno')).sendKeys('051054');
     await driver.findElement(By.name('telephoneno')).sendKeys('3217458474');
